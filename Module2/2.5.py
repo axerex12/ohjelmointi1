@@ -13,4 +13,4 @@ while yhteensägrammat>1000:
     kilot+=1
 
 print("Massa nykymittojen mukaan: ")
-print(f"{kilot} kilogrammaa ja {yhteensägrammat} grammaa.")
+print(f"{kilot} kilogrammaa ja {yhteensägrammat: 2.2f} grammaa.")
