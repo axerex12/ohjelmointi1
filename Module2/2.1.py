@@ -1,2 +1,2 @@
 nimi = input()
-print(f"Terve, {nimi}")
+print(f"Terve, {nimi}!")
