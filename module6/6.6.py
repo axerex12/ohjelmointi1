@@ -4,7 +4,7 @@ def pizzalaskuri(pizzahalk, hinta):
     r = pizzahalk/2
     pintaala = math.pi * r**2
 
-    pintaeur = pintaala/hinta
+    pintaeur = hinta/pintaala
     return pintaeur
 
 pizzahalka = int(input("Anna ekan pizzan halkasija!: "))
