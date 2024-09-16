@@ -1,0 +1,28 @@
+Suomenkieliset ohjeet:
+(Tallenna nimellä tiedosto.md, esim. liitosehtoHarjoitukset.md)
+
+# week [1]
+
+### Tehtävä 1
+SELECT * FROM esimerkki 
+![ruudunkaappaus](kuvatiedoston-nimi.png)
+
+### Tehtävä 2
+SELECT * FROM esimerkki WHERE kentta = 'arvo' 
+![ruudunkaappaus](kuvatiedoston-nimi.png)
+
+English instructions:
+(Save as some-file.md, eg. join-exercises.md)
+
+# Week [2]
+
+### Assignment 1
+ SELECT country.name AS "country name", airport.name AS "airport name"
+FROM country
+JOIN airport ON country.iso_country = airport.iso_country
+WHERE country.name = 'iceland';
+![screenshot](schreenshot-file-name.png)
+      
+### Assignment 2
+SELECT * FROM example WHERE column = 'value' 
+![screenshot](schreenshot-file-name.png)
