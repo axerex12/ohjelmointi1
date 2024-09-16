@@ -1,10 +1,10 @@
 Suomenkieliset ohjeet:
 (Tallenna nimellä tiedosto.md, esim. liitosehtoHarjoitukset.md)
 
-# week [1]
+# week [2]
 
-### Tehtävä 1
-SELECT * FROM esimerkki 
+### tehtävä 1
+select * from goal; 
 ![ruudunkaappaus](kuvatiedoston-nimi.png)
 
 ### Tehtävä 2
